@@ -11,7 +11,8 @@
 - **Code**:
     - Run the Notebook named JokeGen_LLM_QTFT.ipynb, for the Joke Geneartor Fine-tuning.
 - **Blog**:
-    - Coming soon.
+    - **Kaggle Blog Link** - https://www.kaggle.com/code/nanditab35/joke-generator-using-llm-fine-tuning
+    - **Github Blog Link** - https://github.com/nanditab35/joke-generator/blob/main/joke_generator_using_llm_fine_tuning.ipynb
 - **Demo**:
     - **HuggingFace Model Repository**: https://huggingface.co/nanditab35/phi-2-jokebot-peft
     - **HuggingFace Space Repository**: https://huggingface.co/spaces/nanditab35/jokebot
