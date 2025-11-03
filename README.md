@@ -1,2 +1,17 @@
-# joke-generator
-Joke Generator using LLM Fine-tuning
+# Joke Generator using LLM Fine-tuning
+- **Initial Idea/Motivation:** 
+  - Taking a small model like Phi-2 (2.7B) or even TinyLlama (1.1B) and fine-tuning it on a specific genre of jokes within 4-5 lines max (e.g., clever, silly, punny, tech). Then, quantizing it to the highest possible level (e.g., 4-bit or 3-bit GGUF) and running it.
+  - This is the ultimate test of the (quantization + fine-tuning) combination by creating a fun, usable application with a model under 2GB in size.
+- **Tech Stack**:
+    - **Base Model**: Phi-2 (2.7B).
+    - **Fine-tuning (PEFT+Quatization)**: Implemented QLoRA (Quantized Low-Rank Adaptation), combined with 4-bit quantization, for parameter-efficient training.
+- **Curated Dataset Approach**:
+    - **Targeted Creation**: Generated 400 high-quality examples (100 per category) across four safe topics: ["Technology & Programming", "Coffee & Beverages", "Food & Cooking", "Animals & Pets"].
+    - **Generation Method**: Used DeepSeek Chat with carefully crafted prompts to ensure: Consistent Format (4-5 lines), Content Safety (avoiding offensive content), Category Relevance.
+- **Code**:
+    - Run the Notebook named JokeGen_LLM_QTFT.ipynb, for the Joke Geneartor Fine-tuning.
+- **Blog**:
+    - Coming soon.
+- **Demo**:
+    - **HuggingFace Model Repository**: https://huggingface.co/nanditab35/phi-2-jokebot-peft
+    - **HuggingFace Space Repository**: https://huggingface.co/spaces/nanditab35/jokebot
